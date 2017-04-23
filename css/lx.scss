@@ -1,0 +1,204 @@
+@import"base";
+body {
+  // height:2000px;
+}
+.nav {
+  background:url(i/nav.png) repeat-x 0 0;
+  height:340px;
+  overflow: hidden;
+    .nav0 {
+      width:1201px;
+      height:340px; 
+      margin:0 auto;
+      background:url(i/nav0.png) no-repeat 0 0;
+      a {
+        width:85px;
+        height:40px;
+        float: left;
+        line-height:40px;
+        text-align:center;
+        color:#ffebdd;
+        margin-right:36px;
+        }
+      a:hover {
+        background:#ff6600;
+        }
+  }
+}
+.wow {
+  width:56px;
+  height:56px;
+  a {
+    background:url(i/p03.png) no-repeat 0 0;
+    display:block;
+    width:100%;
+    height:100%;
+    // -webkit-transition-property: all;  //规定应用过渡的 CSS 属性的名称。
+    -webkit-transition-duration: 1.1s; //定义过渡效果花费的时间。默认是 0。
+    &:hover {
+      transform: rotateY(-360deg);
+      // -webkit-transform: rotateY(-360deg); /* Safari 和 Chrome */
+      -moz-transform: rotateY(-360deg);  /* Firefox */
+      // @keyframes  规定动画。
+      // animation 所有动画属性的简写属性，除了 animation-play-state 属性。
+      // animation-name  规定 @keyframes 动画的名称。
+      // -webkit-transition-delay: initial; //规定过渡效果何时开始。默认是 0。 initial是初始
+      // -webkit-animation-timing-function : linear; //规定动画的速度曲线。默认是 "ease"。
+      // -webkit-animation-direction: normal;  //规定动画是否在下一周期逆向地播放。默认是 "normal"。
+      // -webkit-animation-iteration-count: infinite; //规定动画被播放的次数。默认是 1。
+      // -webkit-animation-play-state: running; //规定动画是否在运行或暂停
+    }
+  }
+}
+.dy {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 225px;
+    height: 405px;
+    overflow: hidden;
+    z-index: 5;
+    a {
+      width:40px;
+      height:40px;
+    }
+}
+.rrr {
+  position: fixed;
+  right:0;
+  top:100px;
+  .sspan {
+    display:block;
+    background:#f43;
+    width:20px;
+    font-size:20px;
+    float: left;
+    cursor: pointer;
+    margin-top:10px;
+  }
+  .divv {
+    float: left;
+    .xxa {
+      width:200px;
+      background:green;
+      li {
+        background:green;
+        width:66px;
+        height:30px;
+        float: left;
+        line-height:30px;
+        text-align:center;
+        box-sizing:border-box;
+        span {
+          display: block;
+          height:26px;
+        }
+      }
+      .cur {
+        border-bottom:4px solid red;
+
+      }
+    }
+    .dul {
+      width:198px;
+      background:#fff;
+      display:none;
+       li {
+        text-indent:2em;
+        line-height:20px;
+        span{
+          color:#654;
+          font-size:16px;
+        }
+       }
+    }
+  }
+}
+.ddiv {
+  width:0;
+  height:0;
+  margin:0 auto;
+  border:50px solid;
+  border-color: #fff #fff black #fff;
+  position:relative;
+  animation:myfirst 5s linear 2s infinite alternate;
+  /* Firefox: */
+  -moz-animation:myfirst 5s linear 2s infinite alternate;
+  /* Safari and Chrome: */
+  -webkit-animation:myfirst 5s linear 2s infinite alternate;
+  /* Opera: */
+  -o-animation:myfirst 5s linear 2s infinite alternate;
+  }
+
+  @keyframes myfirst
+  {
+  0%   {background:red; left:0px; top:0px;}
+  25%  {background:yellow; left:200px; top:0px;}
+  50%  {background:blue; left:200px; top:200px;}
+  75%  {background:green; left:0px; top:200px;}
+  100% {background:red; left:0px; top:0px;}
+  }
+
+  // @-moz-keyframes myfirst /* Firefox */
+  // {
+  // 0%   {background:red; left:0px; top:0px;}
+  // 25%  {background:yellow; left:200px; top:0px;}
+  // 50%  {background:blue; left:200px; top:200px;}
+  // 75%  {background:green; left:0px; top:200px;}
+  // 100% {background:red; left:0px; top:0px;}
+  // }
+
+  // @-webkit-keyframes myfirst /* Safari and Chrome */
+  // {
+  // 0%   {background:red; left:0px; top:0px;}
+  // 25%  {background:yellow; left:200px; top:0px;}
+  // 50%  {background:blue; left:200px; top:200px;}
+  // 75%  {background:green; left:0px; top:200px;}
+  // 100% {background:red; left:0px; top:0px;}
+  // }
+
+  // @-o-keyframes myfirst /* Opera */
+  // {
+  // 0%   {background:red; left:0px; top:0px;}
+  // 25%  {background:yellow; left:200px; top:0px;}
+  // 50%  {background:blue; left:200px; top:200px;}
+  // 75%  {background:green; left:0px; top:200px;}
+  // 100% {background:red; left:0px; top:0px;}
+  // }
+.adiv {
+  position:relative;
+  height:320px;
+      #pspan {
+      width:20px;
+      height:20px;
+      display:block;
+      background:yellow;
+    }
+footer {
+  position:absolute;
+  bottom:0;
+
+    .heng {
+      background:green;
+      height:20px;
+      width:180px;
+    }
+  .shu {
+    background:#999;
+    width:200px;
+    top:40px;
+    dl {
+      margin-left:10px;
+      dd {
+        text-align:center;
+      }
+    }
+    ul {
+        li{
+          height:20px;
+          border:1px solid red;
+        }
+    }
+  }
+}
+}

@@ -1,0 +1,30 @@
+{
+"host": "170.16.32.2",
+"user": "web",
+"password": "webjyt",
+"projectPath": "",
+"serverDir": "",
+"previewServerDir": "fe/page",
+"cdn": "",
+"newcdn": "",
+"outputCustom": "",
+"build":{
+        "livereload":true,
+        "sass":true,
+        "scss":true,
+        "less":false,
+        "csslint":false
+},
+        "output":{
+                    "cssImagesUrlReplace": false,
+                    "cssCombo": false,
+                    "combineWidgetCss":true,
+                    "compressPng":false,
+                    "compressCss":true,
+                    "cssSprite":true,
+                    "compressJs":true,
+                    "cssSpriteMargin":5,
+                    "imagesSuffix":1
+            },
+            "localServerPort": 8082
+    }
